@@ -1,0 +1,28 @@
+.box-phim{
+    height: 700px;
+    width: 100%;
+    background-color: slategrey;
+    display: block;
+    margin: 10px 0px;
+}
+.box-phim>img{
+    float: left;
+    max-width: 650px;
+    height: 700px;
+}
+.box-phim>div>span{
+    float: left;
+    color: white;
+    padding-left: 40px;
+}
+.box-phim>div{
+    display: block;
+    margin: 350px 40%;
+    margin-right: 0;
+    height: 350px;
+    width: auto;
+}
+body{
+    width: 100%;
+    height: auto;
+}

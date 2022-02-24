@@ -1,0 +1,23 @@
+.box-phim{
+    height: auto;
+    width: 300px;
+    float: left;
+    background-color: slategrey;
+    display: block;
+    margin: 10px 150px;
+}
+.box-phim>img{
+    width: 300px;
+}
+.box-phim>div>span{
+    color: white;
+    padding-left: 40px;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+article{
+    height: 800px;
+    background-color: lightgray;
+}

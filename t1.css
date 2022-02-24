@@ -1,0 +1,119 @@
+.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    background-color: orangered;
+    height: 40px;
+}
+body{
+    margin: 0;
+    height: auto;
+}
+.menu>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding: 0px 10px;
+    color: white;
+}
+.menu>li>a:hover{
+    color:black;
+    font-weight: bolder;
+}
+.menu>li{
+    float: left;
+    margin: 0 5px;
+    position: relative;
+    display: inline-block;
+}
+.menu ul{
+    width: 170px;
+    list-style: none;
+    background-color: dimgrey;
+    text-align: left;
+    border-radius: 3px;
+    box-shadow: 0 0 1px gray;
+    position: absolute;
+    display: none;
+}
+.menu>li:hover>.hmenu{
+    display: block;
+}
+.hmenu{
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+.hmenu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    background-color: azure;
+    color: red;
+}
+.hmenu>li>a:hover{
+    color: aqua;
+    position: absolute;
+}
+.div{
+    background-color: gray;
+    border: 2px;
+}
+.img{
+    width: 40%;
+    height: 150px;
+}  
+.h1{
+    width: 20px;
+    position: absolutesss;
+}
+article{
+    height: auto;
+    background-color: lightgray;
+}
+article>form>*{
+    display: block;
+    margin: 0 auto;
+}
+article>form{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+article>form>label{
+    text-align: center;
+}
+article>form>input{
+    width: 314px;
+}
+.chiane{
+    display: block;
+    width: auto;
+}
+footer{
+    height: auto;
+    background-color: black;
+}
+.chiane>div{
+    display: inline-block;
+    width: 200px;
+}
+.chiane>div>a{
+    display: block;
+    width: auto;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+article>form>span{
+    text-align: center;
+}
+article>form>input{
+    width: 150px;
+}
